@@ -9,8 +9,8 @@ public class Main {
         System.out.println("Введите ваше предложение:");
         String words = scan.nextLine();
         String[] transwords = words.split("[\\d\\s]+");
-        System.out.println("Кол-во слов: ");
-        System.out.print(transwords.length);
+        System.out.print("Кол-во слов: " + transwords.length);
+
 
 
     }
